@@ -45,6 +45,7 @@ class MethodTimerTransform extends Transform{
      * 5. SUB_PROJECTS              只有子项目。
      * 6. SUB_PROJECTS_LOCAL_DEPS   只有子项目的本地依赖项(本地jar)。
      * 7. TESTED_CODE               由当前变量(包括依赖项)测试的代码
+     * 如果要处理所有的class字节码，返回TransformManager.SCOPE_FULL_PROJECT
      * @return
      */
     @Override

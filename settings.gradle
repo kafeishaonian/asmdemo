@@ -1,3 +1,4 @@
 rootProject.name = "ASMDemo"
 include ':app'
 include ':plugin_statistic'
+include ':ioc'
