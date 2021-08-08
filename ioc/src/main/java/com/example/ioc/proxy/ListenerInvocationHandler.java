@@ -5,7 +5,6 @@ import java.lang.reflect.Method;
 import java.util.Map;
 
 /**
- * Created by Administrator on 2017/12/15.
  * 动态代理
  */
 
